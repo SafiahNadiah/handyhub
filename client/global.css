@@ -9,35 +9,39 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* HandyHub Base Colors */
+    --background: 210 40% 98%; /* Light blue-gray background */
+    --foreground: 210 4% 21%; /* HandyHub dark gray #343434 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 210 4% 21%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 4% 21%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* HandyHub Primary - Blue theme */
+    --primary: 198 77% 70%; /* HandyHub blue #73D0F5 */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* HandyHub Secondary - Darker blue */
+    --secondary: 197 46% 48%; /* HandyHub secondary blue #4093B4 */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 200 6% 93%; /* Light gray #EBEEF0 */
+    --muted-foreground: 0 0% 50%; /* Medium gray #808080 */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* HandyHub Accent - Orange */
+    --accent: 33 100% 62%; /* HandyHub orange #FFA93F */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 200 6% 93%; /* Light gray border */
+    --input: 200 6% 93%; /* Input background */
+    --ring: 198 77% 70%; /* HandyHub blue focus ring */
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
