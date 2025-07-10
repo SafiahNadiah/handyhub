@@ -106,5 +106,29 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family:
+      "Poppins",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      sans-serif;
+  }
+
+  /* HandyHub gradients and utilities */
+  .handyhub-gradient {
+    background: linear-gradient(135deg, #73d0f5 0%, #4093b4 100%);
+  }
+
+  .handyhub-card-shadow {
+    box-shadow: 0 4px 20px rgba(115, 208, 245, 0.15);
+  }
+
+  .handyhub-button-orange {
+    background: linear-gradient(135deg, #ffa93f 0%, #ff8c00 100%);
+  }
+
+  .handyhub-button-yellow {
+    background: linear-gradient(135deg, #ffcd03 0%, #ffca54 100%);
   }
 }
