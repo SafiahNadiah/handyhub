@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HandyHub Flutter Preview</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #73d0f5 0%, #4093b4 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .phone-frame {
+        width: 375px;
+        height: 667px;
+        background: #fff;
+        border-radius: 30px;
+        padding: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .gradient-bg {
+        background: linear-gradient(135deg, #73d0f5 0%, #4093b4 100%);
+        padding: 40px 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .hero-icon {
+        width: 80px;
+        height: 80px;
+        background: #ffa93f;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+        font-size: 35px;
+      }
+
+      .content-card {
+        background: white;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(115, 208, 245, 0.2);
+        text-align: center;
+      }
+
+      .title {
+        font-size: 22px;
+        font-weight: bold;
+        color: #343434;
+        margin-bottom: 15px;
+        line-height: 1.3;
+      }
+
+      .description {
+        color: #808080;
+        line-height: 1.5;
+        margin-bottom: 25px;
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #ffa93f 0%, #ff8c00 100%);
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 15px;
+        font-weight: 600;
+        width: 100%;
+        font-size: 16px;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+      }
+
+      .login-link {
+        margin-top: 20px;
+        color: #a7a7a7;
+        font-size: 14px;
+      }
+
+      .flutter-info {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="phone-frame">
+      <div class="gradient-bg">
+        <div class="hero-icon">🔨</div>
+        <div style="color: #066083; font-weight: 600; font-size: 18px">
+          Expert Handyman
+        </div>
+      </div>
+
+      <div class="content-card">
+        <h1 class="title">Ready to Fix Your Home with HandyHub</h1>
+        <p class="description">
+          Connect with skilled professionals for all your home repair and
+          maintenance needs. Quick, reliable, and trusted service at your
+          fingertips.
+        </p>
+        <button class="btn-primary">Get Started</button>
+        <div class="login-link">Already have an account? Log in</div>
+      </div>
+
+      <div class="flutter-info">
+        📱 This is a preview of the Flutter HandyHub app<br />
+        Complete Flutter code is in the lib/ directory
+      </div>
+    </div>
+  </body>
+</html>
