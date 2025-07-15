@@ -4,6 +4,7 @@ import 'package:handyhub/theme/app_theme.dart';
 import 'package:handyhub/theme/app_colors.dart';
 
 void main() {
+  
   group('App Theme Tests', () {
     test('Light theme is properly configured', () {
       final theme = AppTheme.lightTheme;
